@@ -36,7 +36,7 @@ alfajores-frontend/
 
 1. Clona el repositorio:
    ```sh
-   git clone https://github.com/tuusuario/alfajores-frontend.git
+   git clone https://github.com/florencianunnez/alfajores-frontend.git
    cd alfajores-frontend
    ```
 
@@ -44,8 +44,6 @@ alfajores-frontend/
    ```sh
    npm install
    ```
-
-3. Asegúrate de tener el backend corriendo en `http://localhost:3000` o ajusta la URL en los componentes si es necesario.
 
 ## Uso
 
@@ -55,7 +53,7 @@ npm start
 ```
 Esto abrirá la app en [http://localhost:3000](http://localhost:3000).
 
-## Funcionalidades
+## Secciones
 
 - **Catálogo:** Visualiza todos los alfajores disponibles.
 - **Banner:** Slider de imágenes promocionales.
@@ -68,16 +66,10 @@ Esto abrirá la app en [http://localhost:3000](http://localhost:3000).
 - El frontend se conecta al backend mediante peticiones `fetch` a la API REST.
 - Puedes configurar la URL de la API en los componentes según tu entorno.
 
-## Personalización
-
-- Las imágenes deben estar en la carpeta `public/images`.
-- Los estilos personalizados están en `src/assets/styles.css`.
 
 ## Scripts útiles
 
 - `npm start` - Inicia el servidor de desarrollo.
-- `npm run build` - Genera la versión de producción.
-- `npm test` - Ejecuta los tests (si los tienes configurados).
 
 ## Próximos Cambios
 
