@@ -1,0 +1,111 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #110e0e;
+}
+
+.navbar-capricho {
+    padding: 1rem;
+    background: #fc892bc5 !important;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #343a40;
+}
+
+.nav-link {
+    color: #343a40;
+    margin-left: 1rem;
+}
+
+.banner {
+    width: 100%;
+    height: auto;
+}
+
+.slider {
+    position: relative;
+    overflow: hidden;
+}
+
+.slider img {
+    width: 100%;
+    height: auto;
+}
+
+.catalog {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 2rem 0;
+}
+
+.card {
+    margin: 1rem;
+    width: 18rem;
+}
+
+.promo-banner {
+    width: 100%;
+    height: auto;
+    margin: 2rem 0;
+}
+
+.about-us {
+    display: flex;
+    align-items: center;
+    padding: 2rem;
+}
+
+.about-us img {
+    width: 50%;
+    height: auto;
+}
+
+.about-us .text {
+    padding-left: 2rem;
+}
+
+.footer-custom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #fc892bc5 !important;
+}
+
+.footer img {
+    width: 50px;
+    height: auto;
+}
+
+.footer .contact {
+    text-align: center;
+}
+
+.footer .map {
+    width: 200px;
+    height: auto;
+} 
+
+@media (max-width: 768px) {
+    .about-us {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about-us img {
+        width: 100%;
+    }
+
+    .footer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer .map {
+        width: 100%;
+    }
+}
